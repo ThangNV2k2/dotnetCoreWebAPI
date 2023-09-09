@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyApiNet6.props" />
+</Project>
