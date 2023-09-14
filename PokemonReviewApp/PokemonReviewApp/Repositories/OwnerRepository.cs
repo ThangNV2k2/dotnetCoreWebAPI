@@ -7,7 +7,7 @@ namespace PokemonReviewApp.Repositories
     public class OwnerRepository : IOwnerRepository
     {
         private readonly DataContext _context;
-
+        
         public OwnerRepository(DataContext context) 
         {
             _context = context;
@@ -35,6 +35,16 @@ namespace PokemonReviewApp.Repositories
         public bool OwnerExist(int ownerId)
         {
             return _context.Owners.Any(o => o.Id == ownerId);
+        }
+        public bool CreateOwner(Owner owner)
+        {
+            _context.Add(owner);
+            return Save();
+        }
+        public bool Save()
+        {
+            var saved = _context.SaveChanges();
+            return saved > 0 ? true : false;
         }
     }
 }

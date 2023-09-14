@@ -2506,11 +2506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectUniqueName": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\dotnetCoreWebAPI\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "projectName": "PokemonReviewApp",
-      "projectPath": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectPath": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\dotnetCoreWebAPI\\PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "packagesPath": "C:\\Users\\leegj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\PokemonReviewApp\\PokemonReviewApp\\obj\\",
+      "outputPath": "C:\\Users\\leegj\\OneDrive\\Documents\\C#\\ASP.NET\\WebAPI\\dotnetCoreWebAPI\\PokemonReviewApp\\PokemonReviewApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leegj\\AppData\\Roaming\\NuGet\\NuGet.Config",
