@@ -29,7 +29,7 @@ namespace PokemonReviewApp.Repositories
 
         public bool ReviewerExist(int id)
         {
-            return _context.Reviews.Any(r => r.Id == id);
+            return _context.Reviewers.Any(r => r.Id == id);
         }
         public bool CreateReviewer(Reviewer reviewer)
         {
@@ -39,6 +39,11 @@ namespace PokemonReviewApp.Repositories
         public bool UpdateReviewer(Reviewer reviewer)
         {
             _context.Update(reviewer);
+            return Save();
+        }
+        public bool DeleteReviewer(Reviewer reviewer) 
+        {
+            _context.Remove(reviewer);
             return Save();
         }
         public bool Save()
