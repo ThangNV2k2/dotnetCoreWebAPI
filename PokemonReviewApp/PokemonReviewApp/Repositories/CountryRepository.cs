@@ -46,6 +46,11 @@ namespace PokemonReviewApp.Repositories
             _context.Add(country);
             return Save();
         }
+        public bool UpdateCountry(Country country)
+        {
+            _context.Update(country);
+            return Save();
+        }
         public bool Save()
         {
             var saved = _context.SaveChanges();
